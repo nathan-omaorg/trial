@@ -29,7 +29,6 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -->
 
-
 <LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
   <Object ObjectType="MODefinition">
     <Name>AT Command</Name>
@@ -47,10 +46,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -->
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Mandatory</Mandatory>
         <Type>String</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
-        <Units>
-        </Units>
+        <RangeEnumeration></RangeEnumeration>
+        <Units></Units>
         <Description><![CDATA[The AT command to run. Example: AT+CREG? to query registration status]]></Description>
       </Item>
       <Item ID="1">
@@ -59,12 +56,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -->
         <MultipleInstances>Multiple</MultipleInstances>
         <Mandatory>Mandatory</Mandatory>
         <Type>String</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
-        <Units>
-        </Units>
-        <Description><![CDATA[Response to the AT command. Example: +CREG:0,5
-If multiple lines are returned as the modem response, each line will be returned in a separate resource.]]></Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Units></Units>
+        <Description><![CDATA[Response to the AT command. Example: +CREG:0,5 If multiple lines are returned as the modem response, each line will be returned in a separate resource.]]></Description>
       </Item>
       <Item ID="2">
         <Name>Status</Name>
@@ -72,13 +66,9 @@ If multiple lines are returned as the modem response, each line will be returned
         <MultipleInstances>Multiple</MultipleInstances>
         <Mandatory>Mandatory</Mandatory>
         <Type>String</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
-        <Units>
-        </Units>
-        <Description><![CDATA[Status of the command execution as returned by the modem. Typical values:
-OK
-ERROR]]></Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Units></Units>
+        <Description><![CDATA[Status of the command execution as returned by the modem. Typical values:OK ERROR]]></Description>
       </Item>
       <Item ID="3">
         <Name>Timeout</Name>
@@ -86,26 +76,21 @@ ERROR]]></Description>
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Type>Integer</Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
-        <Units>
-        </Units>
-        <Description><![CDATA[Amount of time in seconds allowed for the modem to respond to the command. ]]></Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Units></Units>
+        <Description><![CDATA[Amount of time in seconds allowed for the modem to respond to the command.]]></Description>
       </Item>
       <Item ID="4">
         <Name>Run</Name>
         <Operations>E</Operations>
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Mandatory</Mandatory>
-        <Type>
-        </Type>
-        <RangeEnumeration>
-        </RangeEnumeration>
-        <Units>
-        </Units>
+        <Type></Type>
+        <RangeEnumeration></RangeEnumeration>
+        <Units></Units>
         <Description><![CDATA[Executing this resource will cause the command to be sent to the modem. And the result to be populated using the Response (1) and Status (2) resources]]></Description>
       </Item>
     </Resources>
-    <Description2><![CDATA[]]></Description2>
+    <Description2></Description2>
   </Object>
 </LWM2M>
