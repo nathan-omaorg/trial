@@ -18,9 +18,9 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <!-- Ver of the object, not visible, not used -->
         <Ver>1.0</Ver>
         <!-- URL to the xml file describing the object -->
-        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Security-v1_0.xml</DDF>
+        <DDF>LWM2M_Security-v1_0.xml</DDF>
         <!-- Link that opens the object in the LwM2M Editor Tool -->
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2fLWM2M_Security-v1_0.xml</LWM2M>
+        <LWM2M>LWM2M_Security-v1_0.xml</LWM2M>
         <!-- Link that opens the Object in the Vorto environment -->
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/0</Vorto>
         <!-- 0 => if link to object should not be visible, 1 => if object should be visible (default) -->
@@ -40,27 +40,11 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Access_Control-v1_0_2.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0_2.xml</LWM2M>
+        <DDF>LWM2M_Access_Control-v1_0_2.xml</DDF>
+        <LWM2M>LWM2M_Access_Control-v1_0_2.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/2</Vorto>
         <DDFLink>1</DDFLink>
         <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
-        <TSLink>1</TSLink>
-    </Item>
-
-    <Item>
-        <ObjectID>14</ObjectID>
-        <URN>urn:oma:lwm2m:oma:14</URN>
-        <Name>LWM2M Software Component</Name>
-        <Description>The LWM2M software management object enables remote software management in M2M devices</Description>
-        <Owner>OMA</Owner>
-        <Source>0</Source>
-        <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Software_Component-v1_0.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Component-v1_0.xml</LWM2M>
-        <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/14</Vorto>
-        <DDFLink>1</DDFLink>
-        <TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20180301-A/OMA-TS-LWM2M_SwMgmt-V1_0-20180301-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
     
@@ -73,8 +57,8 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>oneM2M</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/2048.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F2048.xml</LWM2M>
+        <DDF>2048.xml</DDF>
+        <LWM2M>F2048.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
@@ -88,10 +72,9 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Description>This Object provides a link to the currently active set of CMDH policies</Description>
         <Owner>oneM2M</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/2049.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F2049.xml</LWM2M>
+        <DDF>2049.xml</DDF>
+        <LWM2M>2049.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
@@ -107,8 +90,8 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Source>1</Source>
 
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/2050.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F2050.xml</LWM2M>
+        <DDF>2050.xml</DDF>
+        <LWM2M>2050.xml</LWM2M>
         <LWM2M></LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -124,8 +107,8 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>AT&amp;T</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF>https://raw.githubusercontent.com/OpenMobileAlliance/trial/version-1_0/10241.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10241.xml</LWM2M>
+        <DDF>10241.xml</DDF>
+        <LWM2M>10241.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
@@ -140,7 +123,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>AT&amp;T</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF>https://raw.githubusercontent.com/OpenMobileAlliance/trial/dev/10241.xml</DDF>
+        <DDF>dev/10241.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10241.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -155,10 +138,9 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Description>This Object provides the information to represent a generic 3-Phase Power Meter</Description>
         <Owner>Odins</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
-        <DDF>https://raw.githubusercontent.com/OpenMobileAlliance/trial/version-1_0/10242.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10242.xml</LWM2M>
+        <DDF>10242.xml</DDF>
+        <LWM2M>10242.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
@@ -172,10 +154,9 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Description>This Object provides the information to represent a generic 3-Phase Power Meter</Description>
         <Owner>Odins</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
-        <DDF>https://raw.githubusercontent.com/OpenMobileAlliance/trial/dev/10242.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10242.xml</LWM2M>
+        <DDF>/version-1_0/10242.xml</DDF>
+        <LWM2M>/version-1_0/10242.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
