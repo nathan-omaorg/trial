@@ -122,14 +122,29 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Description>This LWM2M Object provides a range of host device related information which can be queried by the LWM2M Server. The host device is any integrated device with an embedded cellular radio module.</Description>
         <Owner>AT&amp;T</Owner>
         <Source>2</Source>
-        <Ver>1.0</Ver>
-        <DDF>dev/10241.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10241.xml</LWM2M>
+        <Ver>1.1</Ver>
+        <DDF>/version-1_0/10241.xml</DDF>
+        <LWM2M>/version-1_0/10241.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>   
+        <Item>
+        <ObjectID>10241</ObjectID>
+        <URN>urn:oma:lwm2m:x:10241:1.2</URN>
+        <Name>HostDeviceInfo</Name>
+        <Description>This LWM2M Object provides a range of host device related information which can be queried by the LWM2M Server. The host device is any integrated device with an embedded cellular radio module.</Description>
+        <Owner>AT&amp;T</Owner>
+        <Source>2</Source>
+        <Ver>1.2</Ver>
+        <DDF>/version-2_0/10241.xml</DDF>
+        <LWM2M>/version-2_0/10241.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>  
     
     <Item>
         <ObjectID>10242</ObjectID>
@@ -154,7 +169,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Description>This Object provides the information to represent a generic 3-Phase Power Meter</Description>
         <Owner>Odins</Owner>
         <Source>2</Source>
-        <Ver>1.0</Ver>
+        <Ver>1.1</Ver>
         <DDF>/version-1_0/10242.xml</DDF>
         <LWM2M>/version-1_0/10242.xml</LWM2M>
         <Vorto></Vorto>
