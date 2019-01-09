@@ -58,7 +58,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Source>1</Source>
         <Ver>1.0</Ver>
         <DDF>2048.xml</DDF>
-        <LWM2M>F2048.xml</LWM2M>
+        <LWM2M>2048.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
