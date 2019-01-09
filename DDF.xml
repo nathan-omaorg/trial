@@ -88,7 +88,6 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Description>Defines which CMDH related parameters will be used by default.</Description>
         <Owner>oneM2M</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>2050.xml</DDF>
         <LWM2M>2050.xml</LWM2M>
@@ -107,8 +106,8 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>AT&amp;T</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF>10241.xml</DDF>
-        <LWM2M>10241.xml</LWM2M>
+        <DDF>/Release-2_0/10241.xml</DDF>
+        <LWM2M>/Release-2_0/10241.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
@@ -123,14 +122,15 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>AT&amp;T</Owner>
         <Source>2</Source>
         <Ver>1.1</Ver>
-        <DDF>/version-1_0/10241.xml</DDF>
-        <LWM2M>/version-1_0/10241.xml</LWM2M>
+        <DDF>10241-1_1.xml</DDF>
+        <LWM2M>10241-1_1.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>   
-        <Item>
+ 
+    <Item>
         <ObjectID>10241</ObjectID>
         <URN>urn:oma:lwm2m:x:10241:1.2</URN>
         <Name>HostDeviceInfo</Name>
@@ -138,6 +138,22 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>AT&amp;T</Owner>
         <Source>2</Source>
         <Ver>1.2</Ver>
+        <DDF>/version-1_0/10241.xml</DDF>
+        <LWM2M>/version-1_0/10241.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item> 
+    
+    <Item>
+        <ObjectID>10241</ObjectID>
+        <URN>urn:oma:lwm2m:x:10241:1.3</URN>
+        <Name>HostDeviceInfo</Name>
+        <Description>This LWM2M Object provides a range of host device related information which can be queried by the LWM2M Server. The host device is any integrated device with an embedded cellular radio module.</Description>
+        <Owner>AT&amp;T</Owner>
+        <Source>2</Source>
+        <Ver>1.3</Ver>
         <DDF>/version-2_0/10241.xml</DDF>
         <LWM2M>/version-2_0/10241.xml</LWM2M>
         <Vorto></Vorto>
@@ -147,6 +163,22 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
     </Item>  
     
     <Item>
+        <ObjectID>10241</ObjectID>
+        <URN>urn:oma:lwm2m:x:10241:1.4</URN>
+        <Name>HostDeviceInfo</Name>
+        <Description>This LWM2M Object provides a range of host device related information which can be queried by the LWM2M Server. The host device is any integrated device with an embedded cellular radio module.</Description>
+        <Owner>AT&amp;T</Owner>
+        <Source>2</Source>
+        <Ver>1.4</Ver>
+        <DDF>10241.xml</DDF>
+        <LWM2M>10241.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item> 
+    
+    <Item>
         <ObjectID>10242</ObjectID>
         <URN>urn:oma:lwm2m:x:10242</URN>
         <Name>3-Phase Power Meter</Name>
@@ -154,8 +186,8 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>Odins</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF>10242.xml</DDF>
-        <LWM2M>10242.xml</LWM2M>
+        <DDF>/version-1_0/10242.xml</DDF>
+        <LWM2M>/version-1_0/10242.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
@@ -164,14 +196,14 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
 
     <Item>
         <ObjectID>10242</ObjectID>
-        <URN>urn:oma:lwm2m:x:10242:1.1</URN>
+        <URN>urn:oma:lwm2m:x:10242:1.2</URN>
         <Name>3-Phase Power Meter</Name>
         <Description>This Object provides the information to represent a generic 3-Phase Power Meter</Description>
         <Owner>Odins</Owner>
         <Source>2</Source>
-        <Ver>1.1</Ver>
-        <DDF>/version-1_0/10242.xml</DDF>
-        <LWM2M>/version-1_0/10242.xml</LWM2M>
+        <Ver>1.2</Ver>
+        <DDF>10242.xml</DDF>
+        <LWM2M>10242.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
