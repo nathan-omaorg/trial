@@ -106,6 +106,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>AT&amp;T</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
+        <!-- this is the first version 1.0 of this object 10241.xml, it was stored in a release called "Release-2_0". The name of the release is not relevant -->
         <DDF>/Release-2_0/10241.xml</DDF>
         <LWM2M>/Release-2_0/10241.xml</LWM2M>
         <Vorto></Vorto>
@@ -122,6 +123,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>AT&amp;T</Owner>
         <Source>2</Source>
         <Ver>1.1</Ver>
+        <!-- this example shows how objecs version 1.1 can be saved without using release function by just name the object version in the file name -->
         <DDF>10241-1_1.xml</DDF>
         <LWM2M>10241-1_1.xml</LWM2M>
         <Vorto></Vorto>
@@ -138,6 +140,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>AT&amp;T</Owner>
         <Source>2</Source>
         <Ver>1.2</Ver>
+        <!-- this example shows how version 1.2 of this object can be stored by using the "release" function. The name of the release (prefix infront of the file name) isn not relevant -->
         <DDF>/version-1_0/10241.xml</DDF>
         <LWM2M>/version-1_0/10241.xml</LWM2M>
         <Vorto></Vorto>
